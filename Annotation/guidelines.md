@@ -1,1 +1,1 @@
-Annotation guidelines for the Sentitel dataset
+## Annotation guidelines for the Sentitel dataset
