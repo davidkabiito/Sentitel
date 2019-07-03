@@ -5,7 +5,7 @@ The goal of this annotation task is to identify opinions expressed in a given se
 ### Telecom (Target Entity) ###
 Telecom is the entity for which the opinion is expressed. The target telecom is usually preceded by the @ sign. The target telecom can be selected from the following list: MTN, Airtel and Africel. The review snippets below indicate the target telecom in bold.
 
- Markup : * Bullet list
+* Bullet list
  
 '**@mtnug** For as long as 2yrs, since I started staying in kireka! When I travel, all is very OK, only kireka, maybe u guys put an old used mast  here?!'
 
