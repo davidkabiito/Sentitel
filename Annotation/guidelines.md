@@ -28,18 +28,12 @@ An aspect term expression (ATE) is an explicit mention of an aspect A of entity 
 
 Examples;
 
-* "Dear @Airtel_Ug , Your mobile money service has issues.  It's bouncing all my transactions." 
+| Opinion | ATE | Aspect |
+| :---         |     :---:      |          ---: |
+| "Dear @Airtel_Ug , Your mobile money service has issues.  It's bouncing all my transactions."   | mobile money |mobile money |
+| '@mtnug What is wrong with your internet, the quality keeps worsening, it keeps hiccuping n this is irritating, whenever am around kireka, no matter where I sit in kireka, internet is poor!'| internet| Data|
+| "Bt u MTN Uganda guys muyina kyemunonyako @mtnug just bought ma minutes to make some important call nw everything shows 'other error"| minutes|calls|
 
-{ATE: mobile money, A: mobile money}
-
-* '@mtnug What is wrong with your internet, the quality keeps worsening, it keeps hiccuping n this is irritating, whenever am around kireka, no matter where I sit in kireka, internet is poor!' 
-
-{ATE: internet, A: internet}
-
-
-* "Bt u MTN Uganda guys muyina kyemunonyako @mtnug just bought ma minutes to make some important call nw everything shows 'other error"
-
-{ATE: minutes, A: calls}
 
 #### Note: Annotate only a single most representative word in the ATE ####
 
