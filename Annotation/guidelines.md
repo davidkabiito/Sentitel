@@ -1,4 +1,4 @@
-# Annotation guidelines for the Sentitel dataset #
+# T-ABSA Annotation Guidelines for the Sentitel dataset #
 
 The goal of this annotation task is to identify opinions expressed in a given sentence for specific entities (telecoms) and their aspects. An aspect should be chosen from a predefined list. In particular, given a sentence, the task of the annotator is to identify the following information:
 
