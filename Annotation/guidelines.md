@@ -16,7 +16,7 @@ Telecom is the entity for which the opinion is expressed. The target telecom is 
 
 ### Aspect ###
 
-Aspect (A) is a label that is given to the opinion expressed for a target telecom. Aspects will be selected from a provided list. For each identified telecom, one or more (or none) aspects can be identified based on the context of the sentence they appear in. The aspect can be selected from the following list: sim card registration, calls, data, billing, customer service, mobile money and general.
+Aspect (A) is a label that is given to the opinion expressed for a target telecom. Aspects will be selected from a provided list. For each identified telecom, one or more (or none) aspects can be identified based on the context of the sentence they appear in. The aspect can be selected from the following list: _sim card registration, calls, data, billing, customer service, mobile money and general_.
 The aspect general describes a general feeling about a telecom without reference to a specific aspect. Sample reviews are provided below:
 
 * '**@africellUG** Thank you africell uganda'
