@@ -7,7 +7,10 @@ Telecom is the entity for which the opinion is expressed. The target telecom is 
 
 
 '@mtnug For as long as 2yrs, since I started staying in kireka! When I travel, all is very OK, only kireka, maybe u guys put an old used mast  here?!'
+
 '@africellUG Thank you africell uganda'
+
 '@Airtel_Ug your service of sending mobile money to @mtnug number is too slow!'
+
 "Their competitor @Airtel_Ug 's Data expires in 3 days. Problem is : Their network is too fake. MTN needs abetter competitor to take them out of business. "
 
