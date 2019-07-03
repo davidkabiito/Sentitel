@@ -44,7 +44,17 @@ Examples;
 #### Note: Annotate only a single most representative word in the ATE ####
 
 
-### Sentiment (Polarity) ###
+### Sentiment (Polarity) Annotation ###
 Each identified E#A pair in a sentence has to be given a polarity, from a set P = {positive, negative}.
+
+In sentiment annotation, the goal is to identify the feeling or attitude being conveyed towards a target and aspect pair through a post on social media. Some posts express an obvious positive or negative sentiment or attitude towards something, and we need to select such clear and unambiguous cases.
+
+T-ABSA is concerned posts where the speaker expresses their opinion towards an aspect or aspects of a target entity (telcom). Examples of positive and negative sentiment expressions towards respective target-Aspect pairs.
+
+| Opinion | Target-Aspect pairs | Sentiment |
+| :---         |     :---:      |          ---: |
+| '@mtnug What is wrong with your internet, the quality keeps worsening, it keeps hiccuping n this is irritating, whenever am around kireka, no matter where I sit in kireka, internet is poor!'   | MTN\#Data | Negative    |
+|"Dear @Airtel_Ug , Your mobile money service has issues.  It's bouncing all my transactions."| Airtel\#Mobile Money       | Negative   |
+
 
 
