@@ -43,3 +43,8 @@ Examples;
 
 #### Note: Annotate only a single most representative word in the ATE
 
+
+## Sentiment (Polarity)
+Each identified E#A pair in a sentence has to be given a polarity, from a set P = {positive, negative}.
+
+
