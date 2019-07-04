@@ -23,8 +23,11 @@ The aspect general describes a general feeling about a telecom without reference
 
 * "**@mtnug** and **@Airtel_Ug** , what's the problem? "
 
-### Aspect Term Expression ###
-An aspect term expression (ATE) is an explicit mention of an aspect A of entity E. This mention can be one or more words.
+#### Aspect Term Expression ####
+An aspect term expression (ATE) is an explicit mention of an aspect A of entity E. This mention can be one or more words. Annotators are  required to highlight a term in the sentence that is indicative of the aspect.The ATE for the aspect general is always "null".
+
+**Note:** 
+A single word that is most indicative of the aspect should be highlighted by the annotator.
 
 Examples;
 
@@ -33,22 +36,37 @@ Examples;
 | "Dear @Airtel_Ug , Your mobile money service has issues.  It's bouncing all my transactions."   | mobile money |mobile money |
 | '@mtnug What is wrong with your internet, the quality keeps worsening, it keeps hiccuping n this is irritating, whenever am around kireka, no matter where I sit in kireka, internet is poor!'| internet| Data|
 | "Bt u MTN Uganda guys muyina kyemunonyako @mtnug just bought ma minutes to make some important call nw everything shows 'other error"| minutes|calls|
+|'@africellUG u guys used to have to have best customer care helpline..what happened, just called and I was dropped, then called again they picked but ur agents were just having a conversation in the background... Disappointed..'"|customer care|customer service|
+| '@Airtel_Ug Has good service and good reliable network!' | network | Network |
 
+Examples of sentences expressing a general aspect:
 
-#### Note: Annotate only a single most representative word in the ATE ####
+- '@africellUG you guys are life savers'
+- '@africellUG is amazing'
+- 'Thanks @Airtel_Ug Happy new month y'all.'
+- '@Airtel_Ug LONGLIVE AIRTEL'
+- 'I really love Airtel'
 
 
 ### Sentiment (Polarity) Annotation ###
-Each identified E#A pair in a sentence has to be given a polarity, from a set P = {positive, negative}.
 
-In sentiment annotation, the goal is to identify the feeling or attitude being conveyed towards a target and aspect pair through a post on social media. Some posts express an obvious positive or negative sentiment or attitude towards something, and we need to select such clear and unambiguous cases.
+In sentiment annotation, the goal is to identify the feeling or attitude being conveyed towards the target#aspect pair through a post on social media. Some posts express an obvious positive or negative sentiment or attitude towards target#aspect pair, and we need to select such clear and unambiguous cases.
 
-T-ABSA is concerned posts where the speaker expresses their opinion towards an aspect or aspects of a target entity (telcom). Examples of positive and negative sentiment expressions towards respective target-Aspect pairs.
+T-ABSA is concerned with posts where the speaker expresses their opinion towards an aspect or aspects of a target entity (telcom). Most work in sentiment analysis (SA) considers three sentiment categories of Positive, Negative, and Neutral. In social media posts, it's uncommon for a social media post to mention an aspect of an entity without expressing any sentiment. This is why the sentiment class Neutral is not considered in this sentiment annotation task.
+
+For each selected target-entity\#Aspect pair in a post, annotators are required to select a sentiment from the set P = {Positive, Negative}.
+
+Examples of positive and negative sentiment expressions towards respective target#Aspect pairs.
 
 | Opinion | Target-Aspect pairs | Sentiment |
 | :---         |     :---:      |          ---: |
-| '@mtnug What is wrong with your internet, the quality keeps worsening, it keeps hiccuping n this is irritating, whenever am around kireka, no matter where I sit in kireka, internet is poor!'   | MTN\#Data | Negative    |
-|"Dear @Airtel_Ug , Your mobile money service has issues.  It's bouncing all my transactions."| Airtel\#Mobile Money       | Negative   |
-
-
+| '@mtnug What is wrong with your internet, the quality keeps worsening, it keeps hiccuping n this is irritating, whenever am around kireka, no matter where I sit in kireka, internet is poor!'| MTN\#Data | Negative |
+| "Dear @Airtel_Ug , Your mobile money service has issues.  It's bouncing all my transactions."| Airtel\#Mobile Money | Negative |
+| '@africellUG Your Mobile internet is off and on' | Africel\#Data | Negative |
+| "@africellUG your network has been on emergency since last night. I can't make any make any call." | Africel\#Calls | Negative |
+| 'As I was still enjoying my monthly free mbs booom another 1GB from @Airtel_Ug| Airtel\#Data | Positive |
+| "@mtnug what's with your network, did u copy airtel?" | MTN\#Data  Airtel\#Data | Negative Negative|
+| '@mtnug has been the best network i have used all my life' | MTN\#Network | Positive |
+|'@mtnug Simply the Best Network for Calls, Data and Mobile Money| MTN\#Calls MTN\#Data  MTN\#Mobile Money | Positive Positive Positive |
+| very affordable network, and well spread. many running promotions and many give backs, so if you are looking for easy and affordable network airtel is the answer | Airtel\#Network | Positive |
 
