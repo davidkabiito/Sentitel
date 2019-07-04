@@ -17,11 +17,15 @@ Telecom is the entity for which the opinion is expressed. The target telecom is 
 ### Aspect ###
 
 Aspect (A) is a label that is given to the opinion expressed for a target telecom. Aspects will be selected from a provided list. For each identified telecom, one or more (or none) aspects can be identified based on the context of the sentence they appear in. The aspect can be selected from the following list: _sim card registration, calls, data, billing, customer service, mobile money and general_.
-The aspect general describes a general feeling about a telecom without reference to a specific aspect. Sample reviews are provided below:
+The aspect general describes a general feeling about a telecom without reference to a specific aspect. 
 
-* '**@africellUG** Thank you africell uganda'
+Examples of reviews expressing a general aspect:
 
-* "**@mtnug** and **@Airtel_Ug** , what's the problem? "
+- '@africellUG you guys are life savers'
+- '@africellUG is amazing'
+- 'Thanks @Airtel_Ug Happy new month y'all.'
+- '@Airtel_Ug LONGLIVE AIRTEL'
+- 'I really love Airtel'
 
 #### Aspect Term Expression ####
 An aspect term expression (ATE) is an explicit mention of an aspect A of entity E. This mention can be one or more words. Annotators are  required to highlight a term in the sentence that is indicative of the aspect.The ATE for the aspect general is always "null".
@@ -38,15 +42,6 @@ Examples;
 | "Bt u MTN Uganda guys muyina kyemunonyako @mtnug just bought ma minutes to make some important call nw everything shows 'other error"| minutes|calls|
 |'@africellUG u guys used to have to have best customer care helpline..what happened, just called and I was dropped, then called again they picked but ur agents were just having a conversation in the background... Disappointed..'"|customer care|customer service|
 | '@Airtel_Ug Has good service and good reliable network!' | network | Network |
-
-Examples of sentences expressing a general aspect:
-
-- '@africellUG you guys are life savers'
-- '@africellUG is amazing'
-- 'Thanks @Airtel_Ug Happy new month y'all.'
-- '@Airtel_Ug LONGLIVE AIRTEL'
-- 'I really love Airtel'
-
 
 ### Sentiment (Polarity) Annotation ###
 
