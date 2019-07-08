@@ -65,3 +65,50 @@ Examples of positive and negative sentiment expressions towards respective targe
 |'@mtnug Simply the Best Network for Calls, Data and Mobile Money| MTN\#Calls MTN\#Data  MTN\#Mobile Money | Positive Positive Positive |
 | very affordable network, and well spread. many running promotions and many give backs, so if you are looking for easy and affordable network airtel is the answer | Airtel\#Network | Positive |
 
+### What to skip
+We are interested in posts that contain a target entity, aspect and sentiment, if any of these is missing, SKIP IT! If any of the three components is not clear please skip the post.
+
+Posts to skip include the ones in which:
+
+(1) The original meaning is impossible to ascertain without context (maybe because they were accompanied by photos, videos, or posted as replies to other posts):
+
+- Ssese overwhelmed Buvuma - at the Lutoboka play ground on match day two of the  @Airtel_Ug Masaza Cup.
+- @ssmusoke @Airtel_Ug You have options. Use them
+- @KatumbaKatumb @mtnug Buddy freeze
+- @AyellaBryan @mtnug Okey boss
+- @mtnug Yes... I have :yum::wink:
+- Guntalk city :sunglasses: 
+- @benj_amin @mtnug Really :joy::joy::joy::joy:nga that's bad:joy:
+
+(2) Adverts:
+These are posts where the telcom company or it's brand ambassadors are promoting the it's services.
+
+- Make your Sunday better by clearing your utility bills conveniently. Dial \*\*# and follow prompts to pay your water bill. Visit to learn more. 
+- @mtnug @ChronixxMusic Lets go and skank de sweet yoooooo
+- Dancing is food for the soul, good for mental health and wellness. @mtnug in collaboration with  @soulenough are giving back to the patients at  through a zumba dance session. 
+- @kamaroma Join @mtnug subscribe to mtn pulse Dia \*\*# and get yourself a ticket
+
+(3) Jokes:
+ 
+Jokes may indicate the opinion of the user but it may be difficult to identify, identifying them is beyond the scope of this annotation task. Therefore the jokes should be skipped.
+
+- @Airtel_Ug we have always been friends.Please forgive my Wewole loan:expressionless:
+
+
+(4) Inquiries and Responses from the telcom:
+- @mtnug @imunanira Its a promotion, right? For how long is it going to run?
+- What of shared bundles 
+- @AyellaBryan @mtnug You just published you phone number online fwaaaa hmmm
+- @AyellaBryan @mtnug hahaha... you will get to learn it the hard way thats certainly things should stay private esp phone numbers tied to social media or online email
+- @AyellaBryan @mtnug I had even forgotten the ussd codes, It really had simplified life
+- @kyanda_ed Hi Kyanda,Im having a little difficult understanding your challenge. If you could explain little more, I will be able to help.
+
+
+(5) Posts that are not related to telcos:
+
+- Cardiac arrest almost killed me until I saw Uganda.
+- @SirBrightug @mtnug Prudes and feeling self-righteous.
+
+
+
+
