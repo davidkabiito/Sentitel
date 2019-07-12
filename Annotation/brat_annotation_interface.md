@@ -8,6 +8,8 @@
 
 ![Screenshot_8](https://user-images.githubusercontent.com/43681553/60771509-e15c5d00-a0f1-11e9-94dc-6567dec73942.png)
 
+![Screenshot_9](https://user-images.githubusercontent.com/43681553/60771514-e6b9a780-a0f1-11e9-8790-21d8a9cb4a49.png)
+
 - Annotation for a tweet with multiple target entities and a single Aspect.
 
 ![Screenshot_4](https://user-images.githubusercontent.com/43681553/60771499-c689e880-a0f1-11e9-81dd-6686c3b9a032.png)
@@ -21,8 +23,6 @@
 
 ![Screenshot_7](https://user-images.githubusercontent.com/43681553/60771506-db667c00-a0f1-11e9-9f8c-74dfc685b53a.png)
 
-
-![Screenshot_9](https://user-images.githubusercontent.com/43681553/60771514-e6b9a780-a0f1-11e9-8790-21d8a9cb4a49.png)
 
 - Tweets to be skipped during annotation.
 
