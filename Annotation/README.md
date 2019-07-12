@@ -7,9 +7,9 @@ There are two files
 
 Contains the rules that were followed while aannotation the data.
 
-- Annotation snapshots
+- brat_annotation_interface
 
-Contains snapshots of sample annotations that were used to guide the annotators
+Contains snapshots of sample annotations that were used to guide the annotators.
 
 Highlights of the annotation:
 
