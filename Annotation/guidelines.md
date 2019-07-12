@@ -109,6 +109,8 @@ Jokes may indicate the opinion of the user but it may be difficult to identify, 
 - Cardiac arrest almost killed me until I saw Uganda.
 - @SirBrightug @mtnug Prudes and feeling self-righteous.
 
+(6) Posts that have mixed sentiment towards the same aspect:
 
+- Good morning @mtnug @MTNza How are you ? I have feedback on the quality of Internet service provided by you to my work place. It can be good, bad and terrible. This Monday morning it's terrible. It's moody. Some days are very good. Thank you so much. Yours faithfully: customer.
 
 
