@@ -24,7 +24,12 @@ _Scrapy_
 Three undergraduate interns from the AI Research Lab, Makerere University where selected to annotate the dataset. Each anotator was required to first read the guidelines (Guidelines.md) and go through the sample annotations (brat_annotation_interface). They then annotated a subset of the data. After each round of annotation, agreements between annotators were calculated and disagreements were discussed. This procedure continued until we obtained a reasonable inter-annotation aggreement over a randomly selected subset of the data. Below is Inter-annotation aggreement before procedding to annotate the entire dataset.
 
 Sentiment
+
 ![image](https://user-images.githubusercontent.com/43681553/61225893-26a01080-a72a-11e9-9332-8b5c73bddbd6.png)
+
+Aspect
+
+![unnamed](https://user-images.githubusercontent.com/43681553/61226114-8696b700-a72a-11e9-9d0f-bb4cc01e74fc.png)
 
 
 
