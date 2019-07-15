@@ -22,7 +22,7 @@ The facebook data was collected from the respective review pages of 3 telcoms in
 - Scrapy
 
 ### Annotators
-Three undergraduate interns from the AI Research Lab, Makerere University where selected to annotate the dataset. Each anotator was required to first read the guidelines (Guidelines.md) and go through the sample annotations (brat_annotation_interface). They then annotated a subset of the data. After each round of annotation, agreements between annotators were calculated and disagreements were discussed. This procedure continued until we obtained a reasonable inter-annotation aggreement over a randomly selected subset of the dataset. Below is Inter-annotation aggreement before proceding to annotate the entire dataset. The inter-annotation aggreement was calculated using the Cohen Kappa coeffiecient. This is reported along with other correlation measures (kendall, pearson, spearman).
+Three undergraduate interns from the AI Research Lab, Makerere University where selected to annotate the dataset. Each anotator was required to first read the guidelines (Guidelines.md) and go through the sample annotations (brat_annotation_interface). They then annotated a subset of the data. After each round of annotation, agreements between annotators were calculated and disagreements were discussed. This procedure continued until we obtained a reasonable inter-annotation aggreement over a randomly selected subset of the dataset. Below is Inter-annotation aggreement before proceeding to annotate the entire dataset. The inter-annotation aggreement was calculated using the Cohen Kappa coeffiecient. This is reported along with other correlation measures (kendall, pearson, spearman).
 
 - Sentiment
 
@@ -32,4 +32,4 @@ Three undergraduate interns from the AI Research Lab, Makerere University where 
 
 ![unnamed](https://user-images.githubusercontent.com/43681553/61226114-8696b700-a72a-11e9-9d0f-bb4cc01e74fc.png)
 
-The annotators then proceded to annotate the entire dataset with each annotating a third of the entire dataset. 
+The annotators then proceeded to annotate the entire dataset with each annotating a third of the entire dataset. 
