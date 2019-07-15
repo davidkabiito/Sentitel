@@ -1,6 +1,13 @@
 # Sentitel
 Targeted Aspect-based Sentiment Analysis
 
+Paper
+=================
+Paper generated 
+
+Results
+=================
+
 
 Project
 =================
