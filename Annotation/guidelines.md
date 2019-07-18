@@ -88,6 +88,7 @@ These are posts where the telcom company or it's brand ambassadors are promoting
 - @mtnug @ChronixxMusic Lets go and skank de sweet yoooooo
 - Dancing is food for the soul, good for mental health and wellness. @mtnug in collaboration with  @soulenough are giving back to the patients at  through a zumba dance session. 
 - @kamaroma Join @mtnug subscribe to mtn pulse Dia \*\*# and get yourself a ticket
+- Calling your friends to turn up for the amazing Xperience of  shouldnt be interrupted or limited. This is possible with the  unlimited calls valid for  hrs Dial \*\*# to activate and talk.  th May is Coming!! Powered By @africellUG
 
 (3) Jokes:
  
@@ -103,6 +104,7 @@ Jokes may indicate the opinion of the user but it may be difficult to identify, 
 - @AyellaBryan @mtnug hahaha... you will get to learn it the hard way thats certainly things should stay private esp phone numbers tied to social media or online email
 - @AyellaBryan @mtnug I had even forgotten the ussd codes, It really had simplified life
 - @kyanda_ed Hi Kyanda,Im having a little difficult understanding your challenge. If you could explain little more, I will be able to help.
+- @africellUG Most daily bundles can be renewed before the expiry date and have previous and current data  running! Does it apply here?
 
 
 (5) Posts that are not related to telcos:
