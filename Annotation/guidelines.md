@@ -1,10 +1,10 @@
 Annotation Guidelines for the Sentitel dataset
 ==============================================
 * [Telecom (Target Entity)](https://github.com/davidkabiito/Sentitel/blob/master/Annotation/guidelines.md#telecom-target-entity)
-* [Aspect](https://github.com/davidkabiito/Sentitel/blob/master/Annotation/guidelines.md#telecom-target-entity)
-* [Aspect Term Expression] (https://github.com/davidkabiito/Sentitel/blob/master/Annotation/guidelines.md#telecom-target-entity
-* [Sentiment (Polarity) Annotation] ()
-* [What to skip]()
+* [Aspect](https://github.com/davidkabiito/Sentitel/blob/master/Annotation/guidelines.md#aspect)
+* [Aspect Term Expression](https://github.com/davidkabiito/Sentitel/blob/master/Annotation/guidelines.md#aspect-term-expression)
+* [Sentiment (Polarity) Annotation](https://github.com/davidkabiito/Sentitel/blob/master/Annotation/guidelines.md#sentiment-polarity-annotation)
+* [What to skip](https://github.com/davidkabiito/Sentitel/blob/master/Annotation/guidelines.md#what-to-skip)
 
 The goal of this annotation task is to identify opinions expressed in a given post towards a specific entity (telecom) and it's aspects. An aspect should be chosen from a predefined list. In particular, given a sentence, the task of the annotator is to identify the following information:
 
