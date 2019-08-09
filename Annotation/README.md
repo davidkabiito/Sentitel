@@ -3,7 +3,7 @@ Annotation Scheme and Guidelines
 This repository contains the guidelines for annotation of the dataset.
 
 ### Statement of Purpose
-For annotating opinions for use in targeted aspect based sentiment analysis(T-ABSA).
+For annotating opinions for use in targeted aspect based sentiment analysis (T-ABSA).
 
 ### Files
 - Guidelines:
