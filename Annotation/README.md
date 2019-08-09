@@ -1,6 +1,11 @@
 Annotation Scheme and Guidelines
 ================================
-This repository contains the guidelines for annotation of the dataset.
+This repository contains the guidelines for annotation of the dataset. In this scheme, the target telecom, the aspects of the target telecom and sentiment of towards the aspect are annotated. The annotation options for each of the categories is shown in the table below;
+
+| Target telecom | Aspect | Sentiment |
+| --- | --- | --- |
+| MTN, Airtel and Africel | Calls, Network, App, Data, General, Customer Service and Mobile money | Positive and Negative |
+
 
 ### Statement of Purpose
 For annotating opinions for use in targeted aspect based sentiment analysis (T-ABSA).
