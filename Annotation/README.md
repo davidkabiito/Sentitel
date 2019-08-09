@@ -1,5 +1,5 @@
-About the annotation
-===========================
+Annotation Scheme and Guidelines
+================================
 This repository contains the guidelines for annotation of the dataset.
 
 ### Statement of Purpose
