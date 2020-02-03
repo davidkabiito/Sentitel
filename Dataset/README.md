@@ -1,4 +1,4 @@
-**SentiTel Dataset
+## SentiTel Dataset
 
 
 The dataset is a human annotated dataset containing 6,320 tweets for the period between February 2019 and September 2019. This dataset is called SentiTel. 5,973 tweets in SentiTel have a single telecom entity mentioned while 347 tweets mention two or three telecom entities.  The total numner of opinions in SentiTel is 6,683 since some tweets have multiple opinions. All the tweets are related to telecom reviews made by twitter user on the major three telecoms in Uganda. The telecom entity names in the tweets are all normalised to *"MTN"*, *"Airtel"* and *"Africell"*.
