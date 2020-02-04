@@ -29,9 +29,7 @@ Results
 =================
 The table below shows the results obtained using both machine learning and deep learning approaches. The evaluation methods used are strict accuracy, Macro-F1 and AUC.
 
-
-
-
+![results_table](https://user-images.githubusercontent.com/43681553/73733163-80ab0680-474c-11ea-9dee-1e596b03236d.png)
 
 
 Project
