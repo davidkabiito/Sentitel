@@ -27,7 +27,7 @@ Requirement
 
 Results
 =================
-The table below shows the results obtained using both machine learning and deep learning approaches. The evaluation methods used are strict accuracy, Macro-F1 and AUC.
+The table below shows the results obtained using both machine learning and deep learning approaches. The evaluation methods used are strict accuracy, Macro-F1 and AUC. There results are reported both in terms of aspect category detection and sentiment classification.
 
 ![results_table](https://user-images.githubusercontent.com/43681553/73733163-80ab0680-474c-11ea-9dee-1e596b03236d.png)
 
@@ -40,7 +40,7 @@ It may be worthwhile to list major project contributors here, especially if this
 
 Setting Up
 =================
-Explain any specific project dependancies here.
+To run the traditional machine learning models (Random Forest and Logistic Regression) just run the notebooks
 
 
 
