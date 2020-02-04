@@ -32,11 +32,6 @@ The table below shows the results obtained using both machine learning and deep 
 ![results_table](https://user-images.githubusercontent.com/43681553/73733163-80ab0680-474c-11ea-9dee-1e596b03236d.png)
 
 
-Project
-=================
-Here is where a brief description of the project should go.
-
-It may be worthwhile to list major project contributors here, especially if this is a closed source project as one might need to reach out for questions later on.
 
 Setting Up
 =================
