@@ -35,7 +35,7 @@ The table below shows the results obtained using both machine learning and deep 
 
 Setting Up
 =================
-To run the traditional machine learning models ([Random Forest](https://github.com/davidkabiito/Sentitel/blob/master/Models/T-ABSA_random_forest_tfidf_model.ipynb) and Logistic Regression) just run the notebooks
+To run the baseline models: [Random Forest](https://github.com/davidkabiito/Sentitel/blob/master/Models/T-ABSA_random_forest_tfidf_model.ipynb) and Logistic Regression, just run the respective notebook under the Models module.
 
 
 
