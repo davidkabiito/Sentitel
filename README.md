@@ -43,7 +43,7 @@ To run the models, go to the respective notebook under [Code](https://github.com
 * [Logistic Regression TFIDF](https://github.com/davidkabiito/Sentitel/blob/master/Code/LR/tfidf/T-ABSA_LR_tfidf_model.ipynb)
 * [Logistic Regression WORD2VEC](https://github.com/davidkabiito/Sentitel/blob/master/Code/LR/word2vec/T-ABSA_LR_word2vec_model.ipynb)
 * [BERT](https://github.com/davidkabiito/Sentitel/blob/master/Code/BERT/BERT_SentiTel.ipynb)
-* [LSTM](https://github.com/davidkabiito/Sentitel/blob/master/Code/LSTM/readme.md)
+* [LSTM](https://github.com/davidkabiito/Sentitel/tree/master/Code/LSTM)
 
 
 
