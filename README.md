@@ -35,7 +35,15 @@ The table below shows the results obtained using both machine learning and deep 
 
 Setting Up
 =================
-To run the baseline models: [Random Forest](https://github.com/davidkabiito/Sentitel/blob/master/Models/T-ABSA_random_forest_tfidf_model.ipynb) and Logistic Regression, just run the respective notebook under the Models module.
+To run the models, go to the respective notebook under [Code](https://github.com/davidkabiito/Sentitel/tree/master/Code)
+
+
+* [Random Forest TFIDF](https://github.com/davidkabiito/Sentitel/blob/master/Code/random_forest/tfidf/T-ABSA_random_forest_tfidf_model.ipynb)
+* [Random Forest WORD2VEC](https://github.com/davidkabiito/Sentitel/blob/master/Code/random_forest/word2vec/T-ABSA_random_forest_word2vec_model.ipynb)
+* [Logistic Regression TFIDF](https://github.com/davidkabiito/Sentitel/blob/master/Code/LR/tfidf/T-ABSA_LR_tfidf_model.ipynb)
+* [Logistic Regression WORD2VEC](https://github.com/davidkabiito/Sentitel/blob/master/Code/LR/word2vec/T-ABSA_LR_word2vec_model.ipynb)
+* [BERT](https://github.com/davidkabiito/Sentitel/blob/master/Code/BERT/BERT_SentiTel.ipynb)
+* [LSTM](https://github.com/davidkabiito/Sentitel/blob/master/Code/LSTM/readme.md)
 
 
 
