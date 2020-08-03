@@ -70,12 +70,11 @@ $ python test.py --test_tsv=<CUSTOM_TSV>
 ### Sample Test Results
 Trained and tested with default hyper-parameters,
 
- | africell_calls | africell_data | africell_general | africell_network|  airtel_calls | airtel_data | airtel_general | airtel_network | mtn_calls | mtn_data | mtn_general | mtn_network
- 
- :---: | :---: | :---:   | :---: | :---: |:---: | :---: | :---: | :---: | :---: | :---: | :---: | :---:
- 
-aspect_strict_Acc | 0.809815951 | 0.419753086 | 0.722222222 | 0.648148148 | 0.623931624 | 0.648464164 | 0.796581197 | 0.697435897 | 0.846938776 | 0.787723785 | 0.647959184 | 0.806122449
 
-sentiment_Acc | 0.809815951 | 0.419753086 | 0.722222222 | 0.648148148 | 0.623931624 | 0.648464164 | 0.796581197 | 0.697435897 | 0.846938776 | 0.787723785 | 0.647959184 | 0.806122449
-
-aspect_Macro_F1 | 0.111111111 | 0.625 | 0.121212121 | 0.195121951 | 0.342465753 | 0.284722222 | 0.105263158 | 0.191176471 | 0.088888889 | 0.303030303 | 0.348837209 | 0.054545455
+~|africell_calls|africell_data|africell_general|africell_network|airtel_calls|airtel_data|airtel_general|airtel_network|mtn_calls|mtn_data|mtn_general|mtn_network|Average|
+-|--------------|-------------|----------------|----------------|------------|-----------|--------------|--------------|---------|--------|-----------|-----------|-------|
+sentiment_Acc|0.810|0.420|0.722|0.648|0.624|0.648|0.797|0.697|0.847|0.788|0.648|0.806|**0.705**|
+aspect_Macro_F1|0.111|0.625|0.121|0.195|0.342|0.285|0.105|0.191|0.089|0.303|0.349|0.055|**0.231**|
+ 
+  
+  
