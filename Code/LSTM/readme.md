@@ -1,7 +1,7 @@
 # How to run the Attentive LSTM models
 
-This model is run on each target-aspect pair. The labels for the reviews are "Positive", "Negative" and "None".
-
+This model is run on each target-aspect pair. An attentive-LSTM model is trained for each target-aspect pair.
+The labels for the reviews are "Positive", "Negative" and "None".
 
 After runing the model for each target-aspect pair, the results are averaged to obtain the evaluation metrics Strict accuracy, Macro-F1 and Sentiment accuracy.
 
@@ -12,7 +12,7 @@ To train the model with sample data,
 ```
 $ python train.py
 ```
-Train data is split to train set(85%) and validation set(15%). Every 2000 steps, the classification accuracy is tested with validation set and the best model is saved.
+Every 2000 steps, the classification accuracy is tested with development set and the best model is saved.
 
 
 To use Glove pre-trained vectors as initial embedding,
@@ -57,13 +57,9 @@ optional arguments:
 
 ### Test
 To test classification accuracy for test data,
-```
-$ python test.py
-```
 
-To use custom data,
 ```
-$ python test.py --test_tsv=<CUSTOM_TSV>
+$ python test.py --test_tsv="/data/test.tsv"
 ```
 
 
