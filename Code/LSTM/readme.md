@@ -66,3 +66,10 @@ To use custom data,
 $ python test.py --test_tsv=<CUSTOM_TSV>
 ```
 
+
+### Sample Test Results
+Trained and tested with default hyper-parameters,
+
+Model    | Naive    | Attention | Attention(+Glove)
+:---:    | :---:   | :---:     | :---:
+Accuracy | 0.574   | 0.811     | 0.820
