@@ -8,63 +8,46 @@ After runing the model for each target-aspect pair, the results are averaged to 
 
 
 ### Train
-To train the model with sample data,
-```
-$ python train.py
-```
-Every 2000 steps, the classification accuracy is tested with development set and the best model is saved.
+To train the for each target-aspect pair model, Follow the steps below
 
+1. Download each target-aspect pair file.
+2. Copy the following files: *models folder, data_utils.py, download_glove.py, evaluating_LSTM.py, test.py*, and *train.py* from the africel-calls folder to the current target-aspect folder.
+3. Run the *train.py* scrict to train the model for that target-aspect pair.
 
-To use Glove pre-trained vectors as initial embedding,
 ```
-$ python train.py --glove
+test.py
 ```
+
 
 #### Additional Hyperparameters
-```
-$ python train.py -h
-usage: train.py [-h] [--train_tsv TRAIN_TSV] [--model MODEL] [--glove]
-                [--embedding_size EMBEDDING_SIZE] [--num_hidden NUM_HIDDEN]
-                [--num_layers NUM_LAYERS] [--learning_rate LEARNING_RATE]
-                [--batch_size BATCH_SIZE] [--num_epochs NUM_EPOCHS]
-                [--keep_prob KEEP_PROB] [--checkpoint_dir CHECKPOINT_DIR]
+The folowing parameters can be set before running the models
 
-optional arguments:
-  -h, --help            show this help message and exit
-  --train_tsv TRAIN_TSV
-                        Train tsv file.
-  --model MODEL         naive | att
-  --glove               Use glove as initial word embedding.
-  --embedding_size EMBEDDING_SIZE
-                        Word embedding size. (For glove, use 50 | 100 | 200 | 300)
-  --num_hidden NUM_HIDDEN
-                        RNN Network size.
-  --num_layers NUM_LAYERS
-                        RNN Network depth.
-  --learning_rate LEARNING_RATE
-                        Learning rate.
-  --batch_size BATCH_SIZE
-                        Batch size.
-  --num_epochs NUM_EPOCHS
-                        Number of epochs.
-  --keep_prob KEEP_PROB
-                        Dropout keep prob.
-  --checkpoint_dir CHECKPOINT_DIR
-                        Checkpoint directory.
-```
 
+Parameter|Description|Type|Default Value|Option|
+---------|-----------|----|-------------|------|
+train_tsv|Train tsv file|str|"data/train_dev_data_oversampled.tsv"|-|
+model|model type|str|"att"|"naive or att"|
+glove|Use glove as initial word embedding|-|-|-|-|
+embedding_size|Word embedding size|int|200|50, 100, 200, 300|
+num_hidden|RNN Network size|int|100|-|
+num_layers|RNN Network depth|int|2|-|
+learning_rate|Learning rate|float|1e-3|-|
+batch_size|Batch size|int|64|-|
+num_epochs|Number of epochs|int|10|-|
+keep_prob|Dropout keep probability|float|0.8|-|
+checkpoint_dir|Checkpoint directory|str|"saved_model"|-|
 
 
 ### Test
-To test classification accuracy for test data,
+To test classification accuracy for test data, run the **test.py** code with test_tsv parameter set to the test dataset.
 
 ```
-$ python test.py --test_tsv="/data/test.tsv"
+test.py --test_tsv="/data/test.tsv"
 ```
 
 
 ### Sample Test Results
-Trained and tested with default hyper-parameters,
+Trained and tested with the default hyper-parameters,
 
 
 ~|africell_calls|africell_data|africell_general|africell_network|airtel_calls|airtel_data|airtel_general|airtel_network|mtn_calls|mtn_data|mtn_general|mtn_network|Average|
