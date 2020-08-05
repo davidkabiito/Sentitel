@@ -1,4 +1,4 @@
-## TABSA using Sentence Pairs
+## TABSA as a Sentence Pairs classification task using the BERT model
 
 ### Requirement
 pytorch: 1.0.0
