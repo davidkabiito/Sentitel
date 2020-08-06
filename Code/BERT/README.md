@@ -36,7 +36,7 @@ python convert_tf_checkpoint_to_pytorch.py \
 --pytorch_dump_path uncased_L-12_H-768_A-12/pytorch_model.bin
 ```
 
-### Step 3: train
+### Step 3: Train
 Training the BERT model on the sentitel dataset.
 
 ```
@@ -55,7 +55,7 @@ Training the BERT model on the sentitel dataset.
 --output_dir results/sentitel/NLI_M \
 --seed 42
 ```
-### Step 4: evaluation
+### Step 4: Evaluation
 Evaluate the results on test set 
 
 calculate Acc, F1, and AUC.
