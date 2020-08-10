@@ -1,0 +1,10 @@
+
+
+
+
+runfile('D:/jupyter/Year2_Research/Generate_Data/generate_sentitel_NLI_M.py', wdir='D:/jupyter/Year2_Research/Generate_Data')
+Reloaded modules: data_utils_sentel
+len(train) =  20063
+len(test) =  5669
+len(dev) =  2878
+Finished
