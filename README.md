@@ -12,7 +12,13 @@ The descriptors extracted include the target telecom, aspect and the sentiment t
 
 Paper
 ================
-Paper generated 
+	1. Targeted Aspect-Based Sentiment Analysis for Ugandan Telecom Reviews from Twitter,  
+	David Kabiito and Joyce Nakatumba-Nabende, 
+	The 22nd International Conference on Artificial Intelligence (ICAI'20) ,  July 27-30, 2020, Las Vegas, USA.
+	
+	2. SentiTel: TABSA for Twitter reviews on Uganda Telecoms, 
+	David Kabiito and Joyce Nakatumba-Nabende, 
+	Widening NLP Workshop 2020, Seattle, Washington,  United States .
 
 Requirement
 =================
